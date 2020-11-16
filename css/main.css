@@ -16,15 +16,15 @@ body {
     background-color: #FFFFFF;
 }
 
-/*@media (min-width: 768px) {*/
-/*    .jumbotron {*/
-/*        padding-top: calc(var(--jumbotron-padding-y) * 2);*/
-/*        padding-bottom: calc(var(--jumbotron-padding-y) * 2);*/
-/*    }*/
-/*}*/
-/*.jumbotron p:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 1.2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 1.2);
+    }
+}
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
 
 /*.jumbotron-heading {*/
 /*    font-weight: 400;*/
